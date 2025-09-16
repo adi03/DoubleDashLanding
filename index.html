@@ -132,6 +132,11 @@
 		/* FAQ */
 		.faq { grid-template-columns: repeat(2, 1fr); }
 
+		/* Lists inside cards */
+		.card ol { margin: 10px 0 0; padding-left: 18px; }
+		.card li { margin: 8px 0; color: var(--muted); line-height: 1.6; }
+		.card li b { color: var(--text); }
+
 		/* Footer */
 		.footer { padding: 32px 0 60px; color: var(--muted); border-top: 1px solid var(--border); }
 		.footer a { color: var(--text); }
@@ -158,6 +163,9 @@
 				<a href="#features">Features</a>
 				<a href="#gallery">Gallery</a>
 				<a href="#faq">FAQ</a>
+				<a href="#support">Support</a>
+				<a href="#privacy">Privacy</a>
+				<a href="#terms">Terms</a>
 			</nav>
 			<div class="header-cta">
 				<a class="btn ghost" href="https://apps.apple.com/ca/app/doubledash-rideshare-dash-cam/id6748657660" target="_blank" rel="noopener">App Store</a>
@@ -288,6 +296,60 @@
 				</div>
 			</div>
 		</section>
+
+		<section id="support" class="section">
+			<div class="container">
+				<h2>Support</h2>
+				<div class="grid faq">
+					<div class="card">
+						<h3>Privacy First</h3>
+						<p>Your videos are stored locally and never leave your device unless you choose to share them.</p>
+					</div>
+					<div class="card">
+						<h3>How It Works</h3>
+						<p>Get started in three easy steps</p>
+						<ol>
+							<li><b>Start Recording</b> — Open DoubleDash and tap record. Your drive is saved securely in the app.</li>
+							<li><b>Auto-Start with CarPlay or Bluetooth</b> — Enable auto-start to begin recording automatically when you connect to your car.</li>
+							<li><b>Review & Share</b> — Browse your video gallery, play back footage, and share clips as needed.</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="privacy" class="section band">
+			<div class="container">
+				<h2>Privacy Policy</h2>
+				<div class="card">
+					<p>Your privacy is important to us. DoubleDash is designed to keep your data safe and secure.</p>
+					<ol>
+						<li><b>No Personal Data Collection</b> — DoubleDash does not collect or transmit any personal information. All video recordings and settings are stored locally on your device.</li>
+						<li><b>No Account Required</b> — You can use all features of DoubleDash without creating an account or logging in.</li>
+						<li><b>Data Sharing</b> — Your videos are never shared with third parties unless you choose to export or share them yourself.</li>
+						<li><b>Analytics</b> — We do not use analytics or tracking services within the app.</li>
+						<li><b>Changes to This Policy</b> — We may update this policy from time to time. Any changes will be posted here with a new effective date.</li>
+					</ol>
+				</div>
+			</div>
+		</section>
+
+		<section id="terms" class="section">
+			<div class="container">
+				<h2>Terms of Use</h2>
+				<div class="card">
+					<ol>
+						<li><b>Acceptance of Terms</b> — By downloading or using DoubleDash, you agree to these Terms of Use.</li>
+						<li><b>Use of the App</b> — You are responsible for complying with local laws, including any restrictions on recording audio or video in your jurisdiction.</li>
+						<li><b>Safety and Compliance</b> — Do not interact with the app while driving. Mount your device safely and operate the app only when it is safe to do so.</li>
+						<li><b>Content Ownership</b> — You own the videos you record. You are solely responsible for how you use and share your recordings.</li>
+						<li><b>No Warranty</b> — The app is provided “as is,” without warranties of any kind. We do not guarantee that recordings will always be captured, stored, or retrievable.</li>
+						<li><b>Limitation of Liability</b> — To the maximum extent permitted by law, we are not liable for any indirect, incidental, consequential, or special damages arising from your use of the app.</li>
+						<li><b>Changes to These Terms</b> — We may update these Terms from time to time. Continued use of the app after changes constitutes acceptance of the updated Terms.</li>
+					</ol>
+				</div>
+			</div>
+		</section>
 	</main>
 
 	<footer class="footer">
@@ -295,7 +357,8 @@
 			<div>© <span id="year"></span> 10699977 Canada Inc • DoubleDash</div>
 			<div style="display:flex; gap:14px;">
 				<a href="https://apps.apple.com/ca/app/doubledash-rideshare-dash-cam/id6748657660" target="_blank" rel="noopener">App Store</a>
-				<a href="https://doubledash.tiiny.site" target="_blank" rel="noopener">Privacy</a>
+				<a href="#privacy">Privacy</a>
+				<a href="#terms">Terms</a>
 				<!-- <a href="mailto:support@your-domain.com">Support</a> -->
 			</div>
 		</div>
